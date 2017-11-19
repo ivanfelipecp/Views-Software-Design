@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gestor-C</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed|Francois+One|Pacifico" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../estilo.css">
+</head>
+<body>
+
+	<div>
+	<nav class="navbar navbar-default navigation">
+		<div class="container-fluid micro-top-space">
+    		<div class="navbar-header">
+      			<a class="navbar-brand pacifico" href="">Gestor-C</a>
+    		</div>
+		    <ul class="nav navbar-nav">
+		      <li><a href="home.html">Home</a></li>
+		      <!-- Previo-->
+		      <li class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="">Previo<span class="caret"></span></a>
+		        <ul class="dropdown-menu">
+		          <li><a href="previo-notificar.html">Notificar</a></li>
+		          <li><a href="previo-agenda.html">Enviar agenda</a></li>
+		        </ul>
+		      </li>
+		      <!-- Durante-->
+		      <li><a href="#">Durante</a></li>
+		      <!-- Despues-->
+		      <li><a href="#">Después</a></li>
+		    </ul>
+		    <ul class="nav navbar-nav navbar-right">
+		      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Hola Dorita</a></li>
+		      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Salir</a></li>
+		    </ul>
+  		</div>
+	</nav>
+	</div>
+
+	<div class="container">
+		<!-- Codigo agregable aca ... -->
+		<h1 class="francois">Notificar</h1>
+		<form class="small-size-input" id="notificar">
+			<div class="margin-form-left ">
+			<div class="form-group row">
+        		<label for="example-email-input" class="">Email</label>
+        		<div class="">
+          			<input class="form-control" type="email" value="sleepingdogsdesign@gmail.com" id="example-email-input">
+        		</div>
+      		</div>
+
+      		<div class="form-group row">
+        		<label for="example-text-input" class="">Encabezado</label>
+        		<div class="">
+          			<input class="form-control" type="text" value="" id="example-text-input" placeholder="Digite el encabezado">
+        		</div>
+      		</div>
+
+      		<div class="form-group row">
+        		<label for="example-text-area" class="">Cuerpo</label>
+        		<div class="">
+          			<!-- <input class="form-control" type="textarea" value="" id="example-text-area" placeholder="Digite el encabezado"> -->
+          			<textarea id="txtArea" rows="5" cols="70" form="notificar" placeholder="Digite el cuerpo"></textarea>
+        		</div>
+      		</div>
+
+      		<div class="form-group row">
+        		<label for="example-file-input" class="">Memorando de justificación</label>
+        		<div class="">
+          			<input class="form-control form-control-file" type="file" id="example-file-input">
+           			<small id="fileHelp" class="form-text text-muted">Seleccione el archivo</small>
+        		</div>
+      		</div>
+
+      		<div class="form-group row">
+       			<label for="example-date-input" class="">Fecha</label>
+        		<div class="">
+          			<input class="form-control" type="date" value="2017-11-19" id="example-date-input">
+        		</div>
+     		</div>
+
+      		<div class="form-group row">
+        		<button type="submit" class="btn btn-primary float-left blue-bg">Enviar</button>
+      		</div>
+      		</div>
+		</form>
+	</div>
+
+	<footer class="footer footer-bottom top-space blue-bg white">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 mini-top-space">
+            <h1 class="pacifico">Developed by Sleeping-Dogs &copy;</h1>
+          </div>
+
+          <div class="col-sm-3">
+            <h2 class="pacifico">Contact US</h2>
+            <a href="#" class="white a-hover">https://www.sleepingdogs.com</a></br>
+            <h5>sleepingdogsdesign@gmail.com</h5>
+            <h5>+506 888-8888</h5>
+          </div>
+
+          <div class="col-sm-3">
+            <h2 class="pacifico">About US</h2>
+            <a href="#" class="white a-hover">Facebook</a></br>
+            <a href="#" class="white a-hover">Developers</a></br>
+            <a href="#" class="white a-hover">Linkedin</a></br>
+          </div>
+        </div>
+      </div>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

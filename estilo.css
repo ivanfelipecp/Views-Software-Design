@@ -18,6 +18,10 @@ h1, h2, h3, h4, h5{
 a{
   color: #172A40;
 }
+
+.font-big-size{
+  font-size: 80px;
+}
 /* */
 .barlow{
   font-family: 'Barlow Semi Condensed', sans-serif;
@@ -89,6 +93,10 @@ a{
 
 .top-space{
   margin-top: 5%;
+}
+
+.medium-top-space{
+  margin-top: 10%;
 }
 
 .max-bottom-space{

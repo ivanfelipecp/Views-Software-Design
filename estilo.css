@@ -10,7 +10,11 @@ html,body{
     height: 100%
 }
 
-
+h1, h2, h3, h4, h5{
+  font-family: 'Francois One', sans-serif;
+  color: #172A40;
+}
+/* */
 .barlow{
   font-family: 'Barlow Semi Condensed', sans-serif;
   color: red;
@@ -45,8 +49,22 @@ html,body{
   color: #D9383A;
 }
 
+.green-bg{
+  background: #64B543;
+  color: #FFF7DC;
+}
+
+.red-bg{
+  background: #A20D1E;
+  color: #FFF7DC;
+}
+
 .small-size-input{
   width: 30%;
+}
+
+.list-size{
+  width: 60%;
 }
 
 .medium-size-input{
@@ -58,6 +76,10 @@ html,body{
 }
 
 .margin-form-left{
+  margin-left: 15px;
+}
+
+.margin-form-right{
   margin-left: 15px;
 }
 
@@ -85,6 +107,45 @@ html,body{
     color: #FFF7DC;
 }
 
+.table-medium{
+  width: 50%
+}
+
+.h-clear{
+  display: inline;
+  clear:both;
+}
+
+.disabled {
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.6;
+}
+
+.div-border-right{
+  border-right: 1px solid black;
+  border-right-style: double;
+  border-right-color: #172A40;
+}
+
+.div-border-left{
+  border-left: 1px solid black;
+  border-left-style: double;
+  border-left-color: #172A40;
+}
+
+.float-right{
+  text-align: right;
+}
+
+.float-left{
+  text-align: left;
+}
+
+.float-center{
+  text-align: center;
+}
+
 .navigation {
    position: sticky;
    top: 0;
@@ -107,9 +168,19 @@ html,body{
   color: #D9383A;
 }
 
+.all-width{
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
 .navbar-default {
   background-color: #172a40;
-  border-color: #fff7dc;
+  border-color: #172A40;
 }
 .navbar-default .navbar-brand {
   color: #ecf0f1;
